@@ -13,7 +13,7 @@ function Shop() {
     const [loading, setLoading] = useState(false);
     const [optionActive, SetOptionActive] = useState('All Products');
     const [filter, setFilter] = useState('');
-    const [optionFilter, setOptionFilter] = useState('');
+    // const [optionFilter, setOptionFilter] = useState('');
 
     useEffect(() => {
         const getApi = async () => {
