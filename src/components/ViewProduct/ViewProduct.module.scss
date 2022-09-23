@@ -122,6 +122,7 @@
             display: block;
             transition: all 0.2s linear;
             width: 100%;
+            height: 100%;
             animation: faceShow 0.2s linear;
             object-fit: contain;
         }
@@ -297,5 +298,24 @@
     .btn-show-product {
         margin-top: 60px;
         // margin-left: 200px;
+    }
+}
+
+@media (max-height: 720px) {
+    .product-left {
+        .img-main {
+            height: 500px;
+        }
+    }
+    .warper-btn {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .btn-show-product {
+            margin-top: 20px;
+            // margin-left: 200px;
+        }
     }
 }
